@@ -1,0 +1,48 @@
+export const SHOWCASE_SCREENS = [
+  {
+    src: "/screens/onboarding-splash.png",
+    width: 624,
+    height: 1272,
+    alt: "Playmates onboarding screen with Create an account and Sign In options",
+    title: "Onboarding",
+    description: "Create an account or sign in in seconds",
+    lift: "sm:translate-y-0",
+  },
+  {
+    src: "/screens/profile-screen.png",
+    width: 612,
+    height: 1250,
+    alt: "Playmates app profile screen showing personal details, bookings, and payment settings",
+    title: "Profile",
+    description: "Manage your details, bookings, and payments",
+    lift: "sm:-translate-y-6",
+  },
+  {
+    src: "/screens/community-screen-v2.png",
+    width: 628,
+    height: 1284,
+    alt: "Playmates community screen showing groups and upcoming games",
+    title: "Community",
+    description: "Join groups and see upcoming games",
+    lift: "sm:-translate-y-10",
+  },
+  {
+    src: "/screens/payment-screen.png",
+    width: 612,
+    height: 1252,
+    alt: "Playmates payment options screen for booking checkout",
+    title: "Payments",
+    description: "Checkout securely with UPI, cards, and more",
+    lift: "sm:-translate-y-6",
+  },
+  {
+    src: "/screens/booking-screen.png",
+    width: 624,
+    height: 1272,
+    alt: "Playmates app bookings screen showing upcoming bookings and details",
+    title: "Bookings",
+    description: "View your upcoming bookings and details",
+    lift: "sm:translate-y-0",
+  },
+];
+
