@@ -27,11 +27,7 @@ export function Footer() {
                   </a>
                 </li>
               ))}
-              <li>
-                <a href="/contact" className="text-sm text-brand-foreground/90 hover:text-white">
-                  Contact
-                </a>
-              </li>
+           
             </ul>
           </div>
 
