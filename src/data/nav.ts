@@ -3,7 +3,7 @@ export const NAV_LINKS = [
   { label: "Features", href: "#features" },
   { label: "Showcase", href: "#showcase" },
   { label: "About", href: "/about" },
-  {label:"Contact", href:"#contact"}
+  {label:"Contact", href:"/contact"}
 ];
 
 export const LEGAL_LINKS = [
@@ -11,3 +11,4 @@ export const LEGAL_LINKS = [
   { label: "Terms of Service", href: "#" },
   { label: "Refund & Cancellation Policy", href: "#" },
 ];
+
