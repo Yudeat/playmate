@@ -10,7 +10,7 @@ export function ClosingCta() {
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="relative isolate min-h-[420px] overflow-hidden rounded-[2.5rem] bg-brand px-8 py-12 sm:min-h-[520px] sm:px-12 sm:py-16 lg:min-h-[620px] lg:px-16 lg:py-20"
       >

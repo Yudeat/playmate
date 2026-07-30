@@ -51,7 +51,7 @@ export function CoreValues() {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: true, amount: 0 }}
           variants={container}
           className="mt-14 grid grid-cols-2 gap-5 lg:grid-cols-[1.2fr_1fr_1fr]"
         >

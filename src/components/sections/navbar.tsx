@@ -39,13 +39,13 @@ export function Navbar() {
   return (
     <header className="sticky top-3 z-50 px-4 sm:top-4 sm:px-6 lg:top-0 lg:px-0">
       {/* Desktop: full-width bar flush with viewport top, rounded bottom corners only */}
-      <div className="mx-auto hidden w-full max-w-4xl items-center justify-between gap-8 rounded-b-[2rem] bg-brand-dark px-8 py-3 shadow-md lg:flex">
+      <div className="mx-auto hidden w-full max-w-4xl items-center justify-between gap-6 rounded-b-[1.5rem] bg-brand-dark px-6 py-2 shadow-md lg:flex">
         <Link href="/" className="flex shrink-0 items-center gap-2">
-          <Image src="/app-icon.png" alt="Playmates" width={64} height={64} priority className="size-9 rounded-lg" />
-          <span className="font-serif text-lg font-bold text-brand-foreground">Playmates</span>
+          <Image src="/app-icon.png" alt="Playmates" width={64} height={64} priority className="size-7 rounded-lg" />
+          <span className="font-serif text-base font-bold text-brand-foreground">Playmates</span>
         </Link>
 
-        <nav className="flex items-center gap-8">
+        <nav className="flex items-center gap-6">
           {NAV_LINKS.map((link) => (
             <a
               key={link.label}
@@ -57,7 +57,7 @@ export function Navbar() {
           ))}
         </nav>
 
-        <Button className="h-9 shrink-0 rounded-full bg-brand-foreground px-5 text-sm text-brand-dark hover:bg-brand-foreground/90">
+        <Button className="h-8 shrink-0 rounded-full bg-brand-foreground px-4 text-sm text-brand-dark hover:bg-brand-foreground/90">
           Get the app
         </Button>
       </div>
