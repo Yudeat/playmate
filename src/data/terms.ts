@@ -1,13 +1,8 @@
+import type { LegalSection } from "@/types/legal";
+
 export const TERMS_LAST_UPDATED = "30th July 2026";
 
-export type TermsSection = {
-  title: string;
-  paragraphs?: string[];
-  definitions?: { term: string; def: string }[];
-  list?: string[];
-};
-
-export const TERMS_SECTIONS: TermsSection[] = [
+export const TERMS_SECTIONS: LegalSection[] = [
   {
     title: "Introduction",
     paragraphs: [

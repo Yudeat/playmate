@@ -90,7 +90,7 @@ export default function ContactPage() {
             </Button>
             <p className="mt-4 text-xs text-neutral-500">
               By clicking, you agree to our <a href="/terms" className="underline hover:text-neutral-800">Terms &amp; Conditions</a>,{" "}
-              <a href="#" className="underline hover:text-neutral-800">Privacy and Data Protection Policy</a>.
+              <a href="/privacy" className="underline hover:text-neutral-800">Privacy and Data Protection Policy</a>.
             </p>
           </div>
         </form>
